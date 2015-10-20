@@ -1,4 +1,0 @@
-cs1:
-liunx
-
-git

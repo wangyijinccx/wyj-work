@@ -1,0 +1,46 @@
+1:git 提交到dev分支
+1:打jar包
+2: ftp ip地址 -->  get [remote-file] [local-file] 上传本地文件到linux服务器
+http://www.cnblogs.com/chen1987lei/archive/2010/11/26/1888391.html
+get /var/www/fuyatao/index.php  /home/fuyatao/
+
+put (本地和远程通过lcd和cd进入相应目录 下载文件)
+
+
+~/  用户跟目录  ~/wyj/jarbak
+
+moneyday-core-1.0
+
+
+mkdir jarbar
+
+ moneyday-core-1.0
+   
+3：cd /mnt/program   有各种tomcat              
+4：cd tomcat8-api    
+5: cd webapp -api - webinfo-lib 
+
+
+7：cp file1 file2 文件备份  cp 2.txt  jarbar/jarbar2
+8：cp file3 file1  将要替换的jar包替换
+
+
+6:进入tomcat/bin/运行命令 ./shutdown.sh   关闭tomcat          /mnt/program/tomcat8-api/bin     
+
+
+tail -f logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/tovep/articles/2473147.html
+   
+#看是否已经有tomcat在运行了  
+ps -ef |grep tomcat8-api  
+#如果有，用kill;  
+kill -9 pid #pid 为相应的进程号 
+
+
+
+
+9： bin/startup.sh #启动tomcat 
+
+10：tail -f logs/catalina.out #看tomcat的控制台输出； 
+
+
+wenxin同意的操作(替换同样的jar包？)

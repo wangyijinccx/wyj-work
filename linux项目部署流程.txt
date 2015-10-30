@@ -1,6 +1,6 @@
 1:git 提交到dev分支
 1:打jar包
-2: ftp ip地址 -->  get [remote-file] [local-file] 上传本地文件到linux服务器
+2: ftp ip地址 -->  get [remote-file] [local-file] 上传本地文件到linux服务器             (ftp,sftp,SecureCRT.exe)
 http://www.cnblogs.com/chen1987lei/archive/2010/11/26/1888391.html
 get /var/www/fuyatao/index.php  /home/fuyatao/
 

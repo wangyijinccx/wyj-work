@@ -1,5 +1,9 @@
 1:git 提交到dev分支
 1:打jar包
+
+D:\ztweb\moneyday\moneyday-core\target\classes>jar cvf moneyday-core-1.0.jar  ./
+
+
 2: ftp ip地址 -->  get [remote-file] [local-file] 上传本地文件到linux服务器             (ftp,sftp,SecureCRT.exe,FileZilla Client)
 http://www.cnblogs.com/chen1987lei/archive/2010/11/26/1888391.html
 get /var/www/fuyatao/index.php  /home/fuyatao/
@@ -23,24 +27,46 @@ mkdir jarbar
 
 7：cp file1 file2 文件备份  cp 2.txt  jarbar/jarbar2
 8：cp file3 file1  将要替换的jar包替换
+mv  file1  file2
+
+/mnt/program/tomcat8-api/webapps/api/WEB-INF/classes/com/ipeaksoft/moneyday/api/controller      --》api的class文件
+cd ~/wyj
+/mnt/program/tomcat8-api/webapps/api/WEB-INF/lib  ---》jar包
+
+
+zip tst2.zip.1 tst2.txt -- 压缩备份(文件备份)
+zip -r ./tst.zip tst --(压缩文件夹)
 
 
 6:进入tomcat/bin/运行命令 ./shutdown.sh   关闭tomcat          /mnt/program/tomcat8-api/bin     
 
 
-tail -f logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/tovep/articles/2473147.html
+tail -f ../logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/tovep/articles/2473147.html
+
+
+
    
 #看是否已经有tomcat在运行了  
 ps -ef |grep tomcat8-api  
 #如果有，用kill;  
-kill -9 pid #pid 为相应的进程号 
+kill -9 pid     pid为相应的进程号 
 
 
 
 
 9： bin/startup.sh #启动tomcat 
 
-10：tail -f logs/catalina.out #看tomcat的控制台输出； 
+10：tail -f ../logs/catalina.out #看tomcat的控制台输出； 
 
 
 wenxin同意的操作(替换同样的jar包？)
+
+
+
+
+
+vi +/pattern filename：打开文件，并将光标置于第一个与pattern匹配的串处 
+
+输入你要输入的内容.如果你想退出文本编辑模式.并且保存刚刚编辑的文本.首先点击一下键盘上的"ESC",然后输入":wq!"这样就将文本保存了.然后推出了vi编辑器.如果不想保存就按一下键盘上的"ESC",输入":q!".如果你不确定是否成功.可以通过"cat filename" 命令来查看.
+
+

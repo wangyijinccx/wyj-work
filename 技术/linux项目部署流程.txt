@@ -3,6 +3,8 @@
 
 D:\ztweb\moneyday\moneyday-core\target\classes>jar cvf moneyday-core-1.0.jar  ./
 
+D:\ztweb\moneyday\moneyday-core>mvn package
+
 
 2: ftp ip地址 -->  get [remote-file] [local-file] 上传本地文件到linux服务器             (ftp,sftp,SecureCRT.exe,FileZilla Client)
 http://www.cnblogs.com/chen1987lei/archive/2010/11/26/1888391.html

@@ -29,6 +29,8 @@ mkdir jarbar
 8：cp file3 file1  将要替换的jar包替换
 mv  file1  file2
 
+mv 文件名  文件名（修改文件名字）
+
 /mnt/program/tomcat8-api/webapps/api/WEB-INF/classes/com/ipeaksoft/moneyday/api/controller      --》api的class文件
 cd ~/wyj
 /mnt/program/tomcat8-api/webapps/api/WEB-INF/lib  ---》jar包

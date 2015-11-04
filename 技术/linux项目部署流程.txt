@@ -49,6 +49,9 @@ tail -f ../logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/
 
 
 文件复制回去？？？？？？？？？？？？？？？？？  cp ~/wyj/jarbak/tst2.txt ./    termial 
+cp -R <要复制的文件/目录> <目标位置>
+
+
    
 #看是否已经有tomcat在运行了  
 ps -ef |grep tomcat8-api  

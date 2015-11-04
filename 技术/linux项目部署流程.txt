@@ -42,7 +42,7 @@ zip tst2.zip.1 tst2.txt -- 压缩备份(文件备份)
 zip -r ./tst.zip tst --(压缩文件夹)
 
 
-6:进入tomcat/bin/运行命令 ./shutdown.sh   关闭tomcat          /mnt/program/tomcat8-api/bin     
+6:进入tomcat/bin/运行命令 ./shutdown.sh   关闭tomcat          /mnt/program/tomcat8-api-1/bin     
 
 
 tail -f ../logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/tovep/articles/2473147.html

@@ -49,6 +49,8 @@ cd ~/wyj
 zip tst2.zip.1 tst2.txt -- 压缩备份(文件备份)
 zip -r ./tst.zip tst --(压缩文件夹)
 
+/mnt/program/tomcat8-api-2/webapps/api/WEB-INF/classes/com/ipeaksoft/moneyday/api/controller --------class文件
+
 
 6:进入tomcat/bin/运行命令 ./shutdown.sh   关闭tomcat          /mnt/program/tomcat8-api-1/bin     
 

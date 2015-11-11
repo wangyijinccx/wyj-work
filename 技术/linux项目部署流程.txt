@@ -91,3 +91,23 @@ vi +/pattern filename：打开文件，并将光标置于第一个与pattern匹配的串处
 删除文件 rm -f 
 
 
+
+
+
+find path -name filename  ---> find ~/ -name api.zip    查找文件
+netstat -pan|grep 8080查看8080端口号的使用情况
+mkdir newfolder  创建文件
+rm -rf deleteFile 删除文件及其子文件
+mv /temp/movefile /targetFolder 移动文件
+su -username 切换用户
+
+
+
+
+
+
+
+
+
+
+

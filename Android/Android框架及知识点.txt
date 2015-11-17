@@ -9,3 +9,26 @@ onSaveInstanceState
 onrestorInstancestate
 
 
+String sql = "create table if not exists tb_score"+
+    "(id int primary key, score varchar,crtime TimeStamp NOT NULL DEFAULT (datetime('now','localtime'))";
+
+
+
+MAINACTIVTY
+	
+	
+@Override
+	public void updateTime(int longTime) {
+		
+		if(0 == mony){
+			String allprice = tv_mony.getValue();
+			SqlLiteUtil sqlUtil = new SqlLiteUtil(this, "my.db");
+			String sql  = "insert into tb_score (score) values (allprice);"
+			List<String> sqls = new arryList<String>();
+			sqls.add(sql);
+			sqlUtil.createTable(sqlUtil,sqls);
+		}
+		
+		tv_time.setText(""+longTime);
+	}
+

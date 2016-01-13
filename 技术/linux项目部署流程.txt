@@ -7,7 +7,7 @@
 
 D:\ztweb\moneyday\moneyday-core\target\classes>jar cvf moneyday-core-1.0.jar  ./
 
-D:\ztweb\moneyday\moneyday-core>mvn package
+D:\ztweb\moneyday\moneyday-core>mvn package              mvn package -Dmaven.test.skip=ture Ìø¹ıÖ´ĞĞ@TEST  mvn package -DskipTests
 
 D:\ztweb\moneyday\moneyday-api>mvn package
 

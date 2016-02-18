@@ -1,4 +1,26 @@
 
+工作室服务器：
+studio-123.57.68.79 root/123456asdfgH
+/mnt/program/tomcat-admin/
+流程：
+1： core 
+2： class文件 
+3： jsp 文件
+
+2.3只更新修改的
+
+studio2-core-1.0.jar
+
+ztweb\studio2\studio2-core
+
+
+
+
+
+
+
+
+
 先停tomcat8-api-2
 
 

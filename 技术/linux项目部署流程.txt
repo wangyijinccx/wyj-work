@@ -1,5 +1,20 @@
+i43后台
+123.56.109.73
+
+
+西瓜妹后台管理:
+182.92.213.136 root/@Asdfgh123456@?
+/mnt/tomcat/tomcat-admin/
+
+ztweb\xigua\xigua-core
+xigua-core-1.0.jar
+
+/mnt/schedule   西瓜妹后台管理定时任务
+
+
 
 工作室服务器：
+
 studio-123.57.68.79 root/123456asdfgH
 /mnt/program/tomcat-admin/
 流程：
@@ -11,17 +26,20 @@ studio-123.57.68.79 root/123456asdfgH
 
 studio2-core-1.0.jar
 
-ztweb\studio2\studio2-core
+ztweb\studio2\studio2-core       只更新admin
+
+cd ztweb\studio2\studio2-core
 
 
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+moneyday服务器：
 
 
-
-
-先停tomcat8-api-2
+先停tomcat8-api-2       更新api-2  api-1  weixin
 
 
 1:git 提交到dev分支
@@ -122,6 +140,23 @@ mkdir newfolder  创建文件
 rm -rf deleteFile 删除文件及其子文件
 mv /temp/movefile /targetFolder 移动文件
 su -username 切换用户
+
+
+动态任务：
+moneyday
+更新：task 
+      core -- api-1 api-2  weixin
+	  api.class  -- api-1 api-2
+	  
+studio
+更新：admin 文件  -- admin/
+core  api-1，api-2, test?????
+task  -- task
+
+
+ 
+	  
+      
 
 
 

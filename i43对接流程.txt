@@ -1,4 +1,4 @@
-﻿
+﻿git for windows ,redis (RedisDesktopManager),secureCRT(SSH),TOMCAT,eclipse,mysql,meavn,FileZilla Client,
 
 --------------------------------------------------------------广告主对接流程----------------------------------------------------------------------------------------->>
 1、channel-url.properties添加广告主的点击URL

@@ -3,11 +3,27 @@ Spring Security 3  ， git ， java 8 , 数据库锁死及解决办法
 
 spring aop
 
+spring 拦截器：http://blog.csdn.net/tonytfjing/article/details/39207551   异常处理  HandlerExceptionResolver
+
 meavn
 
 JUNIT
 
 sql效率
+
+Thymeleaf
+
+
+数据库缓存   
+
+CopyOnWriteArrayList 适用于并发
+
+
+Ehcache osCache  redis缓存  
+
+session 共享/复制  nginx+tomcat session共享      
+
+tomcat原理 深入等
 
 
 
@@ -36,6 +52,7 @@ java 系统监控
 
 
 
+java队列
 
 
 
@@ -46,9 +63,19 @@ java 系统监控
 
 
 
-http://localhost:8080/moneyday-api/click?taskId=3786&idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.36.3&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+
+
+
+http://localhost:8080/moneyday-api/click?taskId=3791&idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.36.3&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
 http://localhost:8080/moneyday-api/activeUpload?idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&taskId=3487
+
+
+http://api.yijifen.com/EScore_API/common/channelDeviceValidate.do?appid=cydoctor_yjf&idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&source=zhangtong, result:{"E6B1567C-EDE5-4293-8879-E7B45BA80310": 0}
+
+http://api.yijifen.com/EScore_API/common/channelCheckGet.do?deviceid=&appid=cydoctor_yjf&source=zhangtong&os=&IDFA=E6B1567C-EDE5-4293-8879-E7B45BA80310&client_ip=&callback_url=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DYIJIFEN%26idfa%3DE6B1567C-EDE5-4293-8879-E7B45BA80310%26appID%3D478834039, result:{"message":"发送成功！","success":"true"}
+
+
 
 
 

@@ -1,9 +1,9 @@
 i43后台
-123.56.109.73
+123.56.109.73  root/Asdfgh123@#$
 
 
 西瓜妹后台管理:
-182.92.213.136 root/@Asdfgh123456@?
+182.92.213.136 root/@Asdfgh123456@
 /mnt/tomcat/tomcat-admin/
 
 ztweb\xigua\xigua-core
@@ -13,9 +13,17 @@ xigua-core-1.0.jar
 
 
 
+mysql -u xigua -h rdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -p      密码 asdfgh123456
+
+source 导入sql
+
+
+
+
+
 工作室服务器：
 
-studio-123.57.68.79 root/123456asdfgH
+studio-123.57.68.79 root/123456asdfgH$
 /mnt/program/tomcat-admin/
 流程：
 1： core 
@@ -31,7 +39,12 @@ ztweb\studio2\studio2-core       只更新admin
 cd ztweb\studio2\studio2-core
 
 
+nginx/
 
+
+/etc/nginx/conf.d
+
+df -hl 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -100,6 +113,7 @@ tail -f ../logs/catalina.out #看tomcat的控制台输出；     http://www.cnblogs.com/
 
 文件复制回去？？？？？？？？？？？？？？？？？  cp ~/wyj/jarbak/tst2.txt ./    termial 
 cp -R <要复制的文件/目录> <目标位置>
+tar -xzvf api-2016-07-04.log.tar.gz
 
 
    

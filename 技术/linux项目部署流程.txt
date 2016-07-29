@@ -1,9 +1,29 @@
+数据库密码
+xigua    !!!fkrudkjwAFfs#@
+xiguashop    (%$&*AFDfvebbeb!)
+taojinzhe   ^&#^%^wveADVberbr*
+studio    342@#$fgga!fgeAS
+
+
+服务器登陆：
+wangyijin    wyj123!@#   6222
+
+
+ll 或者 ls -l 查看文件权限
+chmod -R  777  /home/mypackage  修改文件权限
+
+
+
+
+
+
 i43后台
-123.56.109.73  root/Asdfgh123@#$
+123.56.109.73  root/!@#zhangtong$%^i43     
+数据库密码890(#$%ADFAfwfew)
 
 
 西瓜妹后台管理:
-182.92.213.136 root/@Asdfgh123456@
+182.92.213.136 root/!@#zhangtong$%^xigua
 /mnt/tomcat/tomcat-admin/
 
 ztweb\xigua\xigua-core
@@ -51,6 +71,7 @@ df -hl
 
 moneyday服务器：
 
+grep taskId=8524 api-2016-07-27.log | wc -l --统计数量
 
 先停tomcat8-api-2       更新api-2  api-1  weixin
 
@@ -168,10 +189,20 @@ core  api-1，api-2, test?????
 task  -- task
 
 
+redis 安装目录
+
+cd /usr
+whereis redis
+ps -ef | grep reids
+
+./redis-cli -a 123456
+
+
+
  
 	  
       
-
+29CE64A1-20CF-4C1C-98F2-F4B827D8E75B_1048366662_MONEYDAY
 
 
 

@@ -13,7 +13,9 @@ ll 或者 ls -l 查看文件权限
 chmod -R  777  /home/mypackage  修改文件权限
 
 
+sudo tar -xzvf api-2016-07-28.log.tar.gz  sudo命令 赋给用户sudo权限
 
+chmod   777    加-R会递归所有子文件夹
 
 
 

@@ -13,6 +13,9 @@ i43 890(#$%ADFAfwfew)
 wangyijin    wyj123!@#   6222
 
 
+#su tomcat *&^%$#@!Qwert
+
+
 ll 或者 ls -l 查看文件权限
 chmod -R  777  /home/mypackage  修改文件权限
 

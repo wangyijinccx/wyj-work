@@ -6,6 +6,7 @@ xigua    !!!fkrudkjwAFfs#@
 xiguashop    (%$&*AFDfvebbeb!)
 taojinzhe   ^&#^%^wveADVberbr*
 studio    342@#$fgga!fgeAS
+i43 890(#$%ADFAfwfew)
 
 
 服务器登陆：
@@ -23,12 +24,12 @@ chmod   777    加-R会递归所有子文件夹
 
 
 i43后台
-123.56.109.73  root/!@#zhangtong$%^i43     
+123.56.109.73  root/!@#zhangtong$%^i43 （废弃）    
 数据库密码890(#$%ADFAfwfew)
 
 
 西瓜妹后台管理:
-182.92.213.136 root/!@#zhangtong$%^xigua
+182.92.213.136 root/!@#zhangtong$%^xigua （废弃） 
 /mnt/tomcat/tomcat-admin/
 
 ztweb\xigua\xigua-core

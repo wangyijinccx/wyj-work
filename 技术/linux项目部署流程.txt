@@ -1,3 +1,6 @@
+测试数据地址：rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com
+
+
 数据库密码
 xigua    !!!fkrudkjwAFfs#@
 xiguashop    (%$&*AFDfvebbeb!)

@@ -18,6 +18,8 @@ wangyijin    wyj123!@#   6222
 
 ll 或者 ls -l 查看文件权限
 chmod -R  777  /home/mypackage  修改文件权限
+sudo chown -R tomcat.tomcat tomcat8-weixin  修改文件的用户及用户组
+whereis  
 
 
 sudo tar -xzvf api-2016-07-28.log.tar.gz  sudo命令 赋给用户sudo权限

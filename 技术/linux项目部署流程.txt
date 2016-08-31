@@ -2,7 +2,7 @@
 
 
 数据库密码
-xigua    !!!fkrudkjwAFfs#@
+xigua    !!!fkrudkjwAFfs#@  
 xiguashop    (%$&*AFDfvebbeb!)
 taojinzhe   ^&#^%^wveADVberbr*
 studio    342@#$fgga!fgeAS
@@ -47,6 +47,12 @@ xigua-core-1.0.jar
 mysql -u xigua -h rdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -p      密码 asdfgh123456
 
 source 导入sql
+
+mysql -u money_everyday -h rdsbyf8ede031ddrawz86.mysql.rds.aliyuncs.com -p
+show databases;
+use 数据库名称;
+show tables;
+select * from 数据表名称;     ; 是必须的
 
 
 

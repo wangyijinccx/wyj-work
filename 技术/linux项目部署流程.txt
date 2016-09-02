@@ -224,6 +224,16 @@ ps -ef | grep reids
 
 
 
+crontab
+
+crontab  -l
+cron -e
+ps -ax | gre cron
+ * * * * * rm /home/wangyijin/test/api-*.log
+ cd  /var/spool/cron
+
+
+
 
 
 

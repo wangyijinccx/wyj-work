@@ -1,4 +1,13 @@
-测试数据地址：rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com
+测试数据地址：rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com 
+
+
+FCDEFD53-C8D2-4909-8443-2C6B302C0C35
+
+
+获取tomcat进程pid 
+ps -ef|grep tomcat
+统计该tomcat进程内的线程个数 
+ps -Lf 29295|wc -l
 
 
 数据库密码

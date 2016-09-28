@@ -1,4 +1,6 @@
 
+java 高并发
+
 Spring Security 3  ， git ， java 8 , 数据库锁死及解决办法 
 
 spring aop
@@ -67,6 +69,7 @@ ssh  与  sftp
 ----------------------------------------------------------------------------------
 
 
+Memcached
 
 
 
@@ -77,7 +80,9 @@ ssh  与  sftp
 
 
 
-http://localhost:8080/moneyday-api/click?taskId=3796&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+
+
+http://localhost:8080/moneyday-api/click?taskId=3797&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
 http://localhost:8080/moneyday-api/activeUpload?idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&taskId=3487
 
@@ -87,6 +92,9 @@ http://api.yijifen.com/EScore_API/common/channelDeviceValidate.do?appid=cydoctor
 http://api.yijifen.com/EScore_API/common/channelCheckGet.do?deviceid=&appid=cydoctor_yjf&source=zhangtong&os=&IDFA=E6B1567C-EDE5-4293-8879-E7B45BA80310&client_ip=&callback_url=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DYIJIFEN%26idfa%3DE6B1567C-EDE5-4293-8879-E7B45BA80310%26appID%3D478834039, result:{"message":"发送成功！","success":"true"}
 
 http://120.25.57.37:8083/task/channelReceiveTask.html?idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&adid=xinyou_304&mac=02:00:00:00:00:00&deviceId=&osVersion=9.0.2&deviceType=&clientIp=106.120.53.88&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DBAIHE%26idfa%3DE6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D395096736
+
+
+http://localhost:8080/moneyday-api/testClickSpeed?taskId=3797&idfa=FCDEFD53-C8D2-4909-8443-2C6B302C0C35&clientIP=124.127.210.140&callback=&OSVersion=10.0.1&ifAction=3
 
 
 

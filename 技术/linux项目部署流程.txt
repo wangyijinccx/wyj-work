@@ -35,6 +35,13 @@ sudo tar -xzvf api-2016-07-28.log.tar.gz  sudo命令 赋给用户sudo权限
 
 chmod   777    加-R会递归所有子文件夹
 
+行云服务器
+http://101.201.199.87:18081/admin/main.do  密码Zt1234
+101.201.199.87   root/!@#Zhangtong456dsp
+cd /opt/tomcat/
+
+
+
 
 
 i43后台
@@ -240,6 +247,10 @@ cron -e
 ps -ax | gre cron
  * * * * * rm /home/wangyijin/test/api-*.log
  cd  /var/spool/cron
+ 
+ 
+ 
+ rsync命令是一个远程数据同步工具，可通过LAN/WAN快速同步多台主机间的文件 来自: http://man.linuxde.net/rsync
 
 
 

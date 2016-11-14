@@ -73,18 +73,39 @@ Memcached
 
 
 
+crontab    com.google.protobuf.    shell
+
+通过脚本 shell awk 日志统计
+
+设计模式
 
 
 
 
 
+GET to:http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=A6B1567-EDE5-4293-8879-E7B45BA80310, result:{"A6B1567-EDE5-4293-8879-E7B45BA80310":0}, time:1649
+
+ GET to:http://wx.jd61.com/index.php/Home/Api/channel_click?cuid=101&adid=151&idfa=A6B1567-EDE5-4293-8879-E7B45BA80310&udid=&mac=02:00:00:00:00:00&ip=1.202.37.35&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DJUDIAN%26idfa%3DA6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D962608304&sign=c2f8c97231f801171b6bd034eec39ce6, result:{"data":null,"info":"\u8bf7\u6c42\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5","status":0}, time:130
+
+ 
+ http://wx.jd61.com/index.php/Home/Api/channel_report_activation?cuid=101&adid=151&idfa=B6B1567-EDE5-4293-8879-E7B45BA80310&mac=02:00:00:00:00:00&ip=1.202.37.35&sign=287f75aef0eabe3580418aa3a94012a2
+ 
+ 
+ GET to:http://wx.jd61.com/index.php/Home/Api/channel_report_activation?cuid=101&adid=151&idfa=B6B1567-EDE5-4293-8879-E7B45BA80310&mac=02:00:00:00:00:00&ip=1.202.37.35&sign=287f75aef0eabe3580418aa3a94012a2, result:{"data":null,"info":"idfa\u6570\u636e\u65e0\u6548","status":0}, time:101
 
 
 
+ 
+ 
+ 
+ GET to:http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310, result:{"E6B1567-EDE5-4293-8879-E7B45BA80310":0}, time:2603
+ 
+     
+                                                          
+http://localhost:8080/moneyday-api/click?taskId=3800&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+http://localhost:8080/moneyday-api/click?taskId=3800&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
-http://localhost:8080/moneyday-api/click?taskId=3797&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
-
-http://localhost:8080/moneyday-api/activeUpload?idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&taskId=3487
+http://localhost:8080/moneyday-api/activeUpload?idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&taskId=3800&clientIP=1.202.37.35
 
 
 http://api.yijifen.com/EScore_API/common/channelDeviceValidate.do?appid=cydoctor_yjf&idfa=E6B1567C-EDE5-4293-8879-E7B45BA80310&source=zhangtong, result:{"E6B1567C-EDE5-4293-8879-E7B45BA80310": 0}
@@ -107,15 +128,24 @@ http://localhost:8080/moneyday-api/upload?idfa=A8B1567-EDE5-4293-8879-E7B45BA803
 
 
 
-http://localhost:8080/moneyday-api/click?taskId=3799&idfa=14B1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+http://localhost:8080/moneyday-api/click?taskId=3799&idfa=wyj1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
  
-http://localhost:8080/moneyday-api/active?taskSource=qianzhan&idfa=14B1567-EDE5-4293-8879-E7B45BA80310&appID=1234388562325&macAddress=
+http://localhost:8080/moneyday-api/active?taskSource=qianzhan&idfa=1211567-EDE5-4293-8879-E7B45BA80310&appID=1234388562325&macAddress=
 
-http://localhost:8080/AdAPI/common/cinfo.do?source=i43&IDFA=CSB1567-EDE5-4293-8879-E7B45BA80310&appid=2989&deviceid=&callback=&OPENUDID=&app_key=appkeycs
+http://localhost:8080/AdAPI/common/cinfo.do?source=i43&IDFA=ZSB1567-EDE5-4293-8879-E7B45BA80310&appid=2989&deviceid=&callback=&OPENUDID=&app_key=
 
-http://localhost:8081/AdAPI/common/ainfo.do?IDFA=CSB1567-EDE5-4293-8879-E7B45BA80310&deviceid=&appid=2989 
+http://localhost:8080/AdAPI/common/ainfo.do?IDFA=WYJ1567-EDE5-4293-8879-E7B45BA80310&deviceid=&appid=2989 
  A8B1567-EDE5-4293-8879-E7B45BA80310
 
+ 
+ http://localhost:8080/AdControl/test/ios_test.do?idfa=ZSB1567-EDE5-4293-8879-E7B45BA80310&ad_code=2989 
+ 
+ 
+http://localhost:8080/dsp-api/common/cinfo.do?source=i43&IDFA=WYJ3567-EDE5-4293-8879-E7B45BA80310&appid=29892&deviceid=&callback=&OPENUDID=&app_key=&client_ip=123.123.135.194
+
+http://localhost:8080/dsp-api/common/ainfo.do?IDFA=WYJ3567-EDE5-4293-8879-E7B45BA80310&deviceid=&appid=29892
+
+campaignConfig_api2989
 
 
 
@@ -482,6 +512,17 @@ http://ioswalladmin.chinazmob.com/admin/index.php/home/api/index?adsid=1330&chan
 mvn install:install-file -Dfile=fileupload-progress.jar -DgroupId=com.scand -DartifactId=fileupload-progress -Dversion=1.0 -Dpackaging=jar
 
 mvn install:install-file -Dfile=java_memcached-release_2.5.0.jar -DgroupId=com.danga -DartifactId=java_memcached-release -Dversion=2.5.0 -Dpackaging=jar
+
+
+
+http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310
+
+GET to:http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310, result:{"E6B1567-EDE5-4293-8879-E7B45BA80310":0}, time:8699
+
+http://wx.jd61.com/index.php/Home/Api/channel_click?cuid=101&adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&udid=&mac=02:00:00:00:00:00&ip=1.202.37.35&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DJUDIAN%26idfa%3DE6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D962608304&sign=d114e9f856f65d20cd8fbf08fe816836
+
+GET to:http://wx.jd61.com/index.php/Home/Api/channel_click?cuid=101&adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&udid=&mac=02:00:00:00:00:00&ip=1.202.37.35&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DJUDIAN%26idfa%3DE6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D962608304&sign=d114e9f856f65d20cd8fbf08fe816836, result:{"data":null,"info":"\u8bf7\u6c42\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5","status":0}, time:118
+
 
 
 

@@ -3,6 +3,7 @@
 
 FCDEFD53-C8D2-4909-8443-2C6B302C0C35
 
+ssh 私钥密码都是zt1234
 
 获取tomcat进程pid 
 ps -ef|grep tomcat

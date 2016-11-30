@@ -102,7 +102,7 @@ GET to:http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=A6B1
  
      
                                                           
-http://localhost:8080/moneyday-api/click?taskId=3800&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+http://localhost:8080/moneyday-api/click?taskId=380011111&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 http://localhost:8080/moneyday-api/click?taskId=3800&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
 http://localhost:8080/moneyday-api/activeUpload?idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&taskId=3800&clientIP=1.202.37.35
@@ -281,53 +281,6 @@ http://api.mobile.dianru.com/ads_fast_api/callback.do?adid=16369&device=iPhone&o
  
  
  
- 14:57:02
-卢明-BatMobi 2016/5/25 14:57:02
-http://ads.i43.com/api/speedTaskActive?taskSource=batmobi&idfa={aff_sub}&appID={aff_sub2}&type={aff_sub3}
-卢明-BatMobi 2016/5/25 14:57:28
-你们这个域名，在美国区不稳定，时不时出现 Name or service not known 现象 ；
-卢明-BatMobi 2016/5/25 14:57:46
-昨天有4个激活，都有回调，只是域名解析失败了；
-冯华兵_新游 2016/5/25 14:57:48
-这个地址应该没错
-卢明-BatMobi 2016/5/25 14:58:12
-嗯，你帮忙确认下，你们的nginx是否有收到原始的日志；
-冯华兵_新游 2016/5/25 14:58:52
-好，我一会回去给你消息
-卢明-BatMobi 2016/5/25 14:58:59
-好的；
-15:16:54
-冯华兵_新游 2016/5/25 15:16:54
-我们这边确实没有收到激活消息
-冯华兵_新游 2016/5/25 15:17:19
-@卢明-BatMobi 你从你们的服务器ping一下我们这个域名看看能不能ping通
-冯华兵_新游 2016/5/25 15:18:20
-如果实在不行， 我们就只能把域名改成ip了， 不过这样就丢弃了我们的负载均衡功能了， 
-15:24:00
-卢明-BatMobi 2016/5/25 15:24:00
-现在测试的话，就比较正常；
-卢明-BatMobi 2016/5/25 15:24:18
-ping 正常； nslookup 也能正常解析 ；
-卢明-BatMobi 2016/5/25 15:25:38
-你们的服务器是北京阿里云的，而我们是美国机房的；
-15:26:02
-卢明-BatMobi 2016/5/25 15:26:02
-国际带宽有时候会很不稳定；
-冯华兵_新游 2016/5/25 15:26:41
-那能不能把我们这个域名对应的ip写在你们服务器的hosts里？
-冯华兵_新游 2016/5/25 15:28:01
-因为我们的负载均衡是在域名上做的， 如果用ip+端口，我们就丢弃这个功能了
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
@@ -371,49 +324,6 @@ POST to:http://queryapi.wbddz.com/servlet/query, content:{appid=953036666, idfa=
 点击
 
 GET to:http://api.wooboo.com.cn/services/cpa/notify?appid=PAWF&channel=zhangtong&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&mac=&version=&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DWABANG%26idfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appID%3DPAWF, result:{success:true}
-
-
-
-
-
--------------------------------------------------------------------------------------留存任务---------------------
-
-
-//获取留存任务列表
-12:15:01.059 [http-nio-8081-exec-8] INFO  com.ipeaksoft.studio2.api.interceptor.CommonExceptionResolver:42 - request:/api/retain/list, param:os=iOS&osVersion=9.2.1&model=iPhone6,1&appVersion=1.0.6&CarrierName=Carrier&appBundleId=com.zt1.Workroom07&location=7&mobile=18500504383&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&deviceId=&clientIP=192.168.1.96&language=zh-Hans-CN&SSID=xinyou003-5G&jailBreak=0&key=5fdbfdb895cea6244c9cfac9f96b8ddc, result:{"msg":"error","result":0}
-
-
-//点击客户端金额
-12:15:43.133 [http-nio-8081-exec-10] INFO  com.ipeaksoft.studio2.api.interceptor.LogAdvice:37 - request:/api/retain/download, param:taskid=790&os=iOS&osVersion=9.2.1&model=iPhone6,1&appVersion=1.0.6&CarrierName=Carrier&appBundleId=com.zt1.Workroom07&location=7&mobile=18500504383&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&deviceId=&clientIP=192.168.1.96&language=zh-Hans-CN&SSID=xinyou003-5G&jailBreak=0&key=c0084c9d2e34d383663bd625b5c0836c, result:{"msg":"ok","result":1}
-12:15:43.147 [SimpleAsyncTaskExecutor-90] INFO  com.ipeaksoft.studio2.api.service.TaskFastCallbackService:70 - 骞垮憡涓籄PPID: 1027230451, 鐐瑰嚮URL: 
-http://ads.i43.com/api/click?taskId=3961&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&clientIP=1.202.36.3&macAdress=020000000000&OSVersion=9.2.1&callback=http%3A%2F%2Fapi.studio.i43.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D1027230451%26type%3Dretain, 鐐瑰嚮缁撴灉: {"code":0,"message":"success"}
-12:15:43.619 [http-nio-8081-exec-9] INFO  com.ipeaksoft.studio2.api.interceptor.LogAdvice:37 - request:/api/retain/click, param:idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&taskid=790&location=7&model=iPhone6,1, result:redirect:http://global.ymtracking.com/trace?offer_id=118009&app_id=97&type=5b2a25e40000001d&aff_sub=95CDD418-DC2E-402F-AF66-16F21F70DDE8&aff_sub2=1027230451
-
-
-打开
-14:18:35.456 [http-nio-8081-exec-2] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskRetainMapper.selectByIdfaAndTask:139 - ==> Parameters: 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 790(Long)
-14:18:35.458 [http-nio-8081-exec-2] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskRetainClickMapper.findByIdfaAndTaskIdToday:139 - ==> Parameters: 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 790(Long)
-14:18:35.463 [http-nio-8081-exec-2] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskRetainClickMapper.insert:139 - ==> Parameters: null, 30525(Long), 18500504383(String), (String), 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 790(Long), 1027230451(String), null, null, null, 1.202.36.3(String), null, null, xinyou003-5G(String), Carrier(String), null, null, 2016-06-03 14:18:35.461(Timestamp), null
-14:18:35.594 [http-nio-8081-exec-2] INFO  com.ipeaksoft.studio2.api.interceptor.LogAdvice:37 - request:/api/retain/open, param:taskid=790&os=iOS&osVersion=9.2.1&model=iPhone6,1&appVersion=1.0.6&CarrierName=Carrier&appBundleId=com.zt1.Workroom07&location=7&mobile=18500504383&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&deviceId=&clientIP=192.168.1.96&language=zh-Hans-CN&SSID=xinyou003-5G&jailBreak=0&key=c0084c9d2e34d383663bd625b5c0836c, result:{"msg":"ok","result":1}
-
-
-
----------------------------------------------------------ASO-------------------------------------
-
-
-获取任务列表
-
-
-14:29:55.060 [http-nio-8081-exec-2] DEBUG com.ipeaksoft.studio2.core.mapper.AccountMapper.selectByIdfa:139 - ==> Parameters: 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String)
-14:29:55.064 [http-nio-8081-exec-2] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskAsoMapper.selectByIdfaAndTasks:139 - ==> Parameters: 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 241(Long), 240(Long), 243(Long), 239(Long), 242(Long)
-14:29:55.066 [http-nio-8081-exec-2] INFO  com.ipeaksoft.studio2.api.interceptor.LogAdvice:37 - request:/api/aso/list, param:os=iOS&osVersion=9.2.1&model=iPhone6,1&appVersion=1.0.6&CarrierName=Carrier&appBundleId=com.zt1.Workroom07&location=7&mobile=18500504383&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&deviceId=&clientIP=192.168.1.96&language=zh-Hans-CN&SSID=xinyou003-5G&jailBreak=0&key=5fdbfdb895cea6244c9cfac9f96b8ddc, result:{"beginningTask":[{"account":"rucx6472@139.com","appID":"1060325300","asokeyword":{"id":1217,"rank":60,"word":"铏愬績"},"bundleid":"com.ipeaksoft.coreball","clicked":2,"compareType":"0","downloadUrl":"https://itunes.apple.com/cn/app/jian-feng-cha-zhen-keng-die/id1060325300?mt=8","finished":0,"icon":"http://xiguaimage.b0.upaiyun.com/20160530_233731636.png","limit":30,"mobile":"18571025783","name":"瑙佺紳鎻掗拡-鍧戠埞鐗堬紙娴嬭瘯锛,"operateStep":"娉ㄦ剰锛佽鍔″繀鎼滅储鍏抽敭璇嶄笅杞芥縺娲伙紒锛,"passwd":"Lang1979!","processName":"","province":"婀栧寳","reamin":48,"reward":100,"shortDesc":"鎼滅储涓嬭浇","size":"[40.4MB]","taskId":241,"total":50,"type":1,"urlscheme":""},{"account":"rucx6472@139.com","appID":"735918392","asokeyword":{"id":1216,"rank":39,"word":"闂叧娓告垙"},"bundleid":"com.ipeaksoft.pitDadGame","clicked":0,"compareType":"0","downloadUrl":"https://itunes.apple.com/cn/app/shi-shang-zui-keng-die-you/id735918392?mt=8","finished":0,"icon":"http://xiguaimage.b0.upaiyun.com/20160530_1910070609.png","limit":30,"mobile":"18571025783","name":"鍙蹭笂鏈�鍧戠埞鐨勬父鎴忥紙娴嬭瘯锛,"operateStep":"娉ㄦ剰锛佽鍔″繀鎼滅储鍏抽敭璇嶄笅杞芥縺娲伙紒锛,"passwd":"Lang1979!","processName":"","province":"婀栧寳","reamin":80,"reward":100,"shortDesc":"鎼滅储涓嬭浇","size":"[52.3MB]","taskId":240,"total":80,"type":1,"urlscheme":""},{"account":"rucx6472@139.com","appID":"883878926","asokeyword":{"id":1219,"rank":17,"word":"淇勭綏鏂柟鍧},"bundleid":"net.ipeaksoft.FourBoxes","clicked":1,"compareType":"0","downloadUrl":"https://itunes.apple.com/cn/app/e-luo-si-fang-kuai-da-ren/id883878926?mt=8","finished":0,"icon":"http://xiguaimage.b0.upaiyun.com/20160530_541605159.jpeg","limit":30,"mobile":"18571025783","name":"淇勭綏鏂柟鍧楄揪浜虹粡鍏哥増锛堟祴璇曪級","operateStep":"娉ㄦ剰锛佽鍔″繀鎼滅储鍏抽敭璇嶄笅杞芥縺娲伙紒锛,"passwd":"Lang1979!","processName":"","province":"婀栧寳","reamin":99,"reward":100,"shortDesc":"鎼滅储涓嬭浇","size":"[36.4MB]","taskId":243,"total":100,"type":1,"urlscheme":""},{"account":"rucx6472@139.com","appID":"1071785167","asokeyword":{"id":1215,"rank":54,"word":"瑙ｈ皽"},"bundleid":"com.ipeaksoft.keng9","clicked":7,"compareType":"0","downloadUrl":"https://itunes.apple.com/us/app/shi-shang-zui-keng-die-you/id1071785167?l=zh&ls=1&mt=8","finished":6,"icon":"http://xiguaimage.b0.upaiyun.com/20160530_310237390.jpeg","limit":30,"mobile":"18571025783","name":"鍙蹭笂鏈�鍧戠埞鐨勬父鎴-ASO","operateStep":"娉ㄦ剰锛侊紒璇锋寜鐓у叧閿瘝鎼滅储涓嬭浇锛侊紒","passwd":"Lang1979!","processName":"","province":"婀栧寳","reamin":43,"reward":100,"shortDesc":"鎼滅储鍏抽敭璇嶄笅杞戒綋楠鍒嗛挓","size":"[43.8MB]","taskId":239,"total":50,"type":1,"urlscheme":""},{"account":"rucx6472@139.com","appID":"1086329625","asokeyword":{"id":1218,"rank":49,"word":"绯栨灉娑堟秷涔},"bundleid":"com.ipeaksoft.CandyClear","clicked":4,"compareType":"0","downloadUrl":"https://itunes.apple.com/cn/app/tang-guo-meng-meng-xiao-xiao/id1086329625?mt=8","finished":2,"icon":"http://xiguaimage.b0.upaiyun.com/20160530_1081132374.jpeg","limit":30,"mobile":"18571025783","name":"绯栨灉钀岃悓娑堟秷涔愶紙娴嬭瘯锛,"operateStep":"娉ㄦ剰锛佽鍔″繀鎼滅储鍏抽敭璇嶄笅杞芥縺娲伙紒锛,"passwd":"Lang1979!","processName":"","province":"婀栧寳","reamin":76,"reward":100,"shortDesc":"鎼滅储涓嬭浇","size":"[26.1MB]","taskId":242,"total":80,"type":1,"urlscheme":""}],"msg":"ok","result":1}
-
-
-开始任务
-
-14:31:09.755 [http-nio-8081-exec-8] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskAsoMapper.selectByIdfaAppAccount:139 - ==> Parameters: 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 1060325300(String), rucx6472@139.com(String)
-14:31:09.760 [http-nio-8081-exec-8] DEBUG com.ipeaksoft.studio2.core.mapper.UserTaskAsoMapper.insert:139 - ==> Parameters: null, 30525(Long), 18500504383(String), (String), 95CDD418-DC2E-402F-AF66-16F21F70DDE8(String), 241(Long), 瑙佺紳鎻掗拡-鍧戠埞鐗堬紙娴嬭瘯锛String), 1060325300(String), rucx6472@139.com(String), 1217(Integer), 铏愬績(String), 2016-06-03 14:31:09.759(Timestamp), 100(Integer), null, null, null, null, null, READY(String), 7(Integer), 1.202.36.3(String), SELF(String), null, xinyou003-5G(String), Carrier(String)
-14:31:09.808 [http-nio-8081-exec-8] INFO  com.ipeaksoft.studio2.api.interceptor.LogAdvice:37 - request:/api/aso/download, param:taskid=241&keyid=1217&account=rucx6472@139.com&os=iOS&osVersion=9.2.1&model=iPhone6,1&appVersion=1.0.6&CarrierName=Carrier&appBundleId=com.zt1.Workroom07&location=7&mobile=18500504383&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&deviceId=&clientIP=192.168.1.96&language=zh-Hans-CN&SSID=xinyou003-5G&jailBreak=0&key=04900a0c670bb4dd42df25eee65a827b, result:{"msg":"ok","result":1}
 
 
 
@@ -503,9 +413,6 @@ http://open.dianjoy.com/dev/api/adlist/partner_confirm_install_v2.php?ad_id=f408
 
 http://localhost:8080/moneyday-api/click?taskId=3786&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&clientIP=1.202.36.3&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
-http://ioswalladmin.chinazmob.com/admin/index.php/home/api/checkExistIdfa?adsid=1330&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8, result:{"95CDD418-DC2E-402F-AF66-16F21F70DDE8":0}
-http://ioswalladmin.chinazmob.com/admin/index.php/home/api/index?adsid=1330&channel=xigua&mac=020000000000&ip=1.202.36.3&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&callbackurl=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DZHONGYI%26idfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appID%3D11059207990, result:{"success":true,"message":"成功"}, time:312
-
 
 
 
@@ -515,13 +422,13 @@ mvn install:install-file -Dfile=java_memcached-release_2.5.0.jar -DgroupId=com.d
 
 
 
-http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310
 
-GET to:http://wx.jd61.com/index.php/Home/Api/ChannelCheckIdfa?adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310, result:{"E6B1567-EDE5-4293-8879-E7B45BA80310":0}, time:8699
 
-http://wx.jd61.com/index.php/Home/Api/channel_click?cuid=101&adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&udid=&mac=02:00:00:00:00:00&ip=1.202.37.35&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DJUDIAN%26idfa%3DE6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D962608304&sign=d114e9f856f65d20cd8fbf08fe816836
 
-GET to:http://wx.jd61.com/index.php/Home/Api/channel_click?cuid=101&adid=151&idfa=E6B1567-EDE5-4293-8879-E7B45BA80310&udid=&mac=02:00:00:00:00:00&ip=1.202.37.35&callback=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DJUDIAN%26idfa%3DE6B1567-EDE5-4293-8879-E7B45BA80310%26appID%3D962608304&sign=d114e9f856f65d20cd8fbf08fe816836, result:{"data":null,"info":"\u8bf7\u6c42\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5","status":0}, time:118
+http://localhost:8080/moneyday-api/click?taskId=&idfa=wyj1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+
+
+http://int.dpool.sina.com.cn/iplookup/iplookup.php?ip=1.202.37.127
 
 
 

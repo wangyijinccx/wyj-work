@@ -11,6 +11,11 @@
   
   http://123.56.109.73/
   http://123.57.154.169:30080/phpMyAdmin  数据库访问
+  阿里云管理控制后台
+  http://signin.aliyun.com/1614391955257482/login.htm
+  yijin.wang
+  Asdfgh123456
+  
 5、模拟调试
  5.1 模拟点击URL请求，让对方查看是否点击成功
  5.2 下载相应的APP，按照对方流程进行激活。查看123.56.109.73日志 cd /mnt/program/tomcat8-api-2/logs 和

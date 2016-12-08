@@ -12,7 +12,7 @@
   http://123.56.109.73/
   http://123.57.154.169:30080/phpMyAdmin  数据库访问
   阿里云管理控制后台
-  http://signin.aliyun.com/1614391955257482/login.htm
+  http://signin.aliyun.com/1614391955257482/login.htm    1614391955257482
   yijin.wang
   Asdfgh123456
   
@@ -168,6 +168,10 @@ jdbc.appstore.username=appstore
 jdbc.appstore.password=123456asdfgh
 
 
+工作室测试数据库
+jdbc.url=jdbc:mysql://rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com:3306/studio?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+jdbc.username=studio
+jdbc.password=Asdfgh123456
 
 
 工作室客户端
@@ -266,6 +270,21 @@ http://localhost:8080/xigua-api/callback?idfa=D27D3EE2-8CBA-4B4A-8865-123F6B1E32
 我们目前是服务器定期去获取任务列表， 然后下发给客户端， 
 这样在获取任务这个阶段， 客户端是不参与的，  但是我们的服务器会定期更新任务列表， 以确保任何变化后能尽快感知， 这样的话， 我们在获取任务的时候是没有客户端的参数的， 这样还能获取到任务吗？
 
+
+
+
+
+
+-------------------------------------------服务器地址-----------------------------------------------------------
+appleaccoutn   
+   123.56.231.14
+   root/Asdfgh!@#$%^
+淘金者
+   root/!@#zhangtong$%^taojin
+traffic
+   root/Asdfgh123456$
+   
+端口：6222
 
 
 

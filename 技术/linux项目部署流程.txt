@@ -65,6 +65,17 @@ mysql -u xigua -h rdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -p      密码 asdf
 
 source 导入sql
 
+i43：
+mysql -u money_everyday -h rdsbyf8ede031ddrawz86.mysql.rds.aliyuncs.com -p
+show databases;
+use 数据库名称;
+show tables;
+select * from 数据表名称;     ; 是必须的
+
+
+工作室：
+studio    342@#$fgga!fgeAS
+
 mysql -u money_everyday -h rdsbyf8ede031ddrawz86.mysql.rds.aliyuncs.com -p
 show databases;
 use 数据库名称;
@@ -253,6 +264,12 @@ ps -ax | gre cron
  
  rsync命令是一个远程数据同步工具，可通过LAN/WAN快速同步多台主机间的文件 来自: http://man.linuxde.net/rsync
 
+ 
+ 
+
+grep /app-android-api/googleplay/getinfo android-api.log |cut -f 12 -d ':'|cut -d ',' -f 1 > a.log
+sort a.log |uniq |wc -l
+sort a.log |wc -l
 
 
 

@@ -16,6 +16,15 @@
   yijin.wang
   Asdfgh123456
   
+ https://www.aliyun.com/ 
+  用户：jiangtao.info@gmail.com
+  密码：123456asdfgh
+  
+  微信支付商户API   https://pay.weixin.qq.com/index.php/partner/public/home
+    账号： 1305314501
+	密码    395640
+  
+  
 5、模拟调试
  5.1 模拟点击URL请求，让对方查看是否点击成功
  5.2 下载相应的APP，按照对方流程进行激活。查看123.56.109.73日志 cd /mnt/program/tomcat8-api-2/logs 和
@@ -127,7 +136,7 @@ V24.cn
 
 
 淘金者
-admin.V24.com
+admin.V24.cn
 admin 123456
 
 西瓜商城后台
@@ -186,6 +195,25 @@ money_everyday 正式访问地址
 西瓜妹后台管理:
 182.92.213.136 root/Asdfgh123456 
 /mnt/tomcat/tomcat-admin/
+
+
+i43微信公众平台
+wechat@zhangtongwireless.com   
+ztwechat
+
+西瓜妹微信公众平台
+18601042108@sohu.com
+asdfgh
+
+
+企业付款的账号密码 ：微信支付平台
+账号;1362456902
+密码：249691 
+
+
+
+
+
 
 
 
@@ -276,18 +304,23 @@ http://localhost:8080/xigua-api/callback?idfa=D27D3EE2-8CBA-4B4A-8865-123F6B1E32
 
 
 -------------------------------------------服务器地址-----------------------------------------------------------
-appleaccoutn   
+appleaccoutn     苹果账号处理--生成appstore账号
    123.56.231.14
    root/Asdfgh!@#$%^
 淘金者
+   http://admin.v24.cn 
+   123.57.154.169
    root/!@#zhangtong$%^taojin
-traffic
+traffic             流量交换平台； 积分墙流量统计
+   http://trafficmanager.zheyaya.com/login.jsp;jsessionid=5530E0A4BAD96A97546E2531462488CA
+   115.28.175.196
    root/Asdfgh123456$
    
 端口：6222
 
 
 
+http://123.57.68.79:36081/api
 
 
 
@@ -296,6 +329,38 @@ traffic
 
 
 
+老板git账号
+9668168@qq.com
+@123456asdfgh@
+
+
+公司开发者账户
+
+devz@yimenapp.net    Wujian815921
+devm@yimenapp.net    Wujian815921
+
+
+演示后台http://v7.huosdk.com/admin.php
+帐号：huoyx
+密码：dengchao
+渠道分销推广系统：http://v7.huosdk.com/agent.php
+帐号：qudao
+密码：123456
+
+pc官网：http://www.191sy.com/web/index.php
+
+万网账号密码
+hi34953347@aliyun.com
+ASDfgh123
+
+
+公司企业邮箱
+ztwireless@zhangtongwireless.com    
+asdfgh123456
+
+ename审核通过了
+http://www.ename.net/
+账号：322338    密码：@asdfgh@  
 
 
 

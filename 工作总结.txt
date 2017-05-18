@@ -1,0 +1,85 @@
+ appstore-8085 和appstore-8084 app排名工程
+重启的话是 kill +startup   
+redis 远程redis-cli -h 127.0.0.1 -p 6379
+重启工程的话 通过ps -ef|grep 看是哪个用户启动的。谁启动的用谁kill
+
+
+
+微信公众平台学习  淘金者挂app
+
+
+
+
+
+工作室删除手机号
+SELECT * FROM tb_user where `mobile`  in ('18672713268','13720551832','15229025476')
+工作室删除金币大赠送记录    金币大赠送任务可以无限做
+
+SELECT * from `tb_user_award`  where `mobile`  = '18672713268';
+
+
+select * from `tb_user_task_award`  where `mobile`  ='18672713268'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://api.studio.i43.com/api/mobile?mobile=18500504384
+http://api.studio.i43.com/api/mobileValidation?mobile=18500504384&code=9813
+
+
+// 发送验证码
+http://api.studio.i43.com/api/mobile?mobile=手机号
+成功
+{
+    "code": "1000",
+    "message": "success"
+}
+
+失败
+{
+    "code": "1008"
+}
+
+//验证
+http://api.studio.i43.com/api/mobileValidation?mobile=手机号&code=验证码
+
+成功
+{
+    "code": "1000",
+    "message": "success"
+}
+
+失败
+{
+    "code": "1011",
+    "message": "success"
+}
+
+
+
+
+
+
+
+
+http://localhost:8080/studio2-api/mobile?mobile=18500504384
+
+
+
+

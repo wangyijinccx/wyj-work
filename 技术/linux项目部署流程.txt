@@ -10,6 +10,8 @@ ps -ef|grep tomcat
 统计该tomcat进程内的线程个数 
 ps -Lf 29295|wc -l
 
+8080端口的请求数
+netstat -na | grep ESTAB | grep 8080 | wc -l
 
 数据库密码
 xigua    !!!fkrudkjwAFfs#@  
@@ -73,6 +75,8 @@ show tables;
 select * from 数据表名称;     ; 是必须的
 
 
+
+
 工作室：
 studio    342@#$fgga!fgeAS
 
@@ -81,6 +85,8 @@ show databases;
 use 数据库名称;
 show tables;
 select * from 数据表名称;     ; 是必须的
+
+mysqldump -u money_everyday  -h rdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -p  money_everyday tb_idfa_app > /home/wangyijin/tb_idfa_app.sql
 
 
 
@@ -272,6 +278,15 @@ sort a.log |uniq |wc -l
 sort a.log |wc -l
 
 
+
+执行命令 sudo su
+执行上面点命令后会要求我们输入当前我们的密码
+输入密码后就切换到root用户了，我们可以看到当前的用户已经是root了
+执行sudo -i命令也可以将当前用户有普通用户切换到root用户模式中
+执行命令后，一般也要求输入我们的密码，输入密码后就切换到root用户了，我们可以看到当前的用户已经是root了
+
+
+user1 ALL=(ALL)     ALL
 
 
 

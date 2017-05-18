@@ -86,6 +86,23 @@ crontab    com.google.protobuf.    shell
 spring filter
 
 
+微信公众平台
+
+linux  tomcat连接线 线程数  jvm日志
+
+
+linux 临时文件
+
+
+
+重点：
+shell
+
+微信公众平台学习  淘金者挂app
+
+
+
+
 
 
 
@@ -154,6 +171,10 @@ http://localhost:8080/dsp-api/common/cinfo.do?source=i43&IDFA=WYJ3567-EDE5-4293-
 http://localhost:8080/dsp-api/common/ainfo.do?IDFA=WYJ3567-EDE5-4293-8879-E7B45BA80310&deviceid=&appid=29892
 
 campaignConfig_api2989
+
+
+
+http://localhost:8080/moneyday-api/click?taskId=3804&idfa=D95CDD418-DC2E-402F-AF66-16F21F70DDE8&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
 
 
 
@@ -433,12 +454,47 @@ mvn install:install-file -Dfile=java_memcached-release_2.5.0.jar -DgroupId=com.d
 
 
 
-http://localhost:8080/moneyday-api/click?taskId=&idfa=wyj1567-EDE5-4293-8879-E7B45BA80310&clientIP=1.202.37.35&callback=http%3A%2F%2Fwww.xiguamei.com%2Fapi%2Fcallback%3Fidfa%3D95CDD418-DC2E-402F-AF66-16F21F70DDE8%26appid%3D956052053
+http://localhost:8080/moneyday-api/click?taskId=3804&idfa=5E2A64D4-3C8A-498F-A920-C04C23F3D92F&clientIP=1.202.37.35&callback=
 
 
 http://int.dpool.sina.com.cn/iplookup/iplookup.php?ip=1.202.37.127
 
 
 
+http://localhost:8080/moneyday-api/click?taskId=380011111&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fdev.api.xxzhuanqian.com%3A7000%2Factive_callback%3Fidfa%3D624AC165-0AB6-400F-970E-599ADCDDC8ED%26bind_id%3D1112428
 
 
+http://ads.i43.com/api/queryidfa?appid=460305965&idfa=69DE8B56-E31D-4AF9-A016-2837047A338A&partner=xianbing
+
+
+
+http://localhost:8080/moneyday-api/active?appid=837545884&idfa=5DF9A38C-115F-4E30-A37A-7CD5214E6096&taskSource=QUANMIN
+
+
+http://localhost:8080/moneyday-api/click?taskId=3801&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&clientIP=124.127.212.145&callback=http%3A%2F%2F123.56.109.73%3A8081%2Fapi%2Fclick%3FclientIP%3D10.8.10.232%26idfa%3Dadsf-asdf-asdf%26taskId%3D1068&osVerson=9.1
+
+
+https://openapi.haodai.com/SdFlow/activation?appleid=1094172902&idfa=95CDD418-DC2E-402F-AF66-16F21F70DDE8&sign=%s&ip=%s&ref=sdflow_003
+
+
+http://localhost:8080/moneyday-api/activeUpload?idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&taskId=3802&clientIP=1.202.37.35
+
+http://localhost:8080/moneyday-api/click?taskId=3802&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fdev.api.xxzhuanqian.com%3A7000%2Factive_callback%3Fidfa%3D624AC165-0AB6-400F-970E-599ADCDDC8ED%26bind_id%3D1112428
+
+
+http://localhost:8080/moneyday-api/click?taskId=3803&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&clientIP=1.202.37.35&callback=http%3A%2F%2Fdev.api.xxzhuanqian.com%3A7000%2Factive_callback%3Fidfa%3D624AC165-0AB6-400F-970E-599ADCDDC8ED%26bind_id%3D1112428
+
+
+http://ads.i43.com/api/activeUpload?idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&taskId=9356&clientIP=1.202.37.35
+
+ GET to:http://pphongbao.com/index.php/thirdPart/checkIdfa?appid=1056451155&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&source=xiguamei, result:{"D753A1EF-9332-40C0-BC0F-669029CF4FB5":0}, time:1535
+ 
+ 
+ GET to:http://pphongbao.com/index.php/thirdPart/clickIdfa?appid=1056451155&idfa=D753A1EF-9332-40C0-BC0F-669029CF4FB5&source=xiguamei&ip=1.202.37.35&system_version=, result:{"result":1,"errormsg":"\u70b9\u51fb\u6210\u529f"}, time:152
+ 
+ GET to:http://pphongbao.com/index.php/thirdPart/submitIdfa?appid=1056451155&idfa=A753A1EF-9332-40C0-BC0F-669029CF4FB5&source=xiguamei&ip=1.202.37.35&system_version=, result:{"result":1,"errormsg":"\u4e0a\u62a5\u6210\u529f"}, time:262
+
+
+http://wap.chujininc.com/front/outTask/check?taskId=352&idfa=5E2A64D4-3C8A-498F-A920-C04C23F3D92F&osVersion=10.0&Ip=1.202.37.35&channelId=27, result:{"5E2A64D4-3C8A-498F-A920-C04C23F3D92F":"0"}
+
+http://wap.chujininc.com/front/outTask/Active?taskId=352&idfa=5E2A64D4-3C8A-498F-A920-C04C23F3D92F&osVersion=10.0&ip=1.202.37.35&channelId=27&returnUrl=http%3A%2F%2Fads.i43.com%2Fapi%2Factive%3FtaskSource%3DCHUJIN%26idfa%3D5E2A64D4-3C8A-498F-A920-C04C23F3D92F%26appID%3D1152396902, result:{"Error":"0","Msg":"Active succeed"}, time:281

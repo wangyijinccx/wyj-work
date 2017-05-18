@@ -1,0 +1,70 @@
+:
+掌通开放平台
+
+xiguamei@zhangtongwireless.com
+
+qwe123
+
+钱袋精灵商户平台
+帐号
+1362456902@1362456902
+密码
+249691
+
+西瓜妹小游戏商户平台
+帐号
+1362456902@1362456902
+密码
+249691
+
+掌通钱袋精灵公众号
+登陆邮箱：yan.zou@zhangtongwireless.com
+密码：klmy*zy723
+
+钱袋精灵公众号
+AppID: wx0689b1b1de2de97f
+AppSecret: 2c7dd9a2d0c99c90044f23b93975d22d
+
+掌通无线App开放平台
+AppKey：wxb2faf6336834f59b
+AppSecret：00966ea9d4c526d2251003f6c7e8d8ff
+
+
+端口：6222
+traffic-115.28.175.196 root/Asdfgh123456$?
+studio-123.57.68.79 chenshuangyuan/123456asdfgH$
+xiguamei-182.92.213.136 chenshuangyuan/*&^%$#@!Qwert
+test-182.92.221.121 root/Asdfgh123456$?    阿里云远程密码：246633
+taojin-123.57.154.169 root/!@#zhangtong$%^taojin
+api-i43-123.56.109.73 chenshuangyuan/!@#chshy$%^
+appstrore-i43-123.57.69.125 root/Asdfgh123456$
+ads-123.56.231.14 root/Asdfgh!@#$%^
+自有server：218.245.5.46 r410/asdfgh123456
+
+
+西瓜妹 RDS：
+xigua    !!!fkrudkjwAFfs#@
+xiguashop    (%$&*AFDfvebbeb!)
+taojinzhe   ^&#^%^wveADVberbr*
+studio    342@#$fgga!fgeAS
+
+
+i43 RDS:
+xigua    TWGverg@#$*^
+money_everyday   890(#$%ADFAfwfew)
+ranking   #$#^avfvAEBBbfdbdf
+:
+掌通阿里云账号
+用户：jiangtao.info@gmail.com
+密码：123456asdfgh
+
+易名中国账号
+www.ename.cn
+用户：322338  
+密码：@asdfgh@
+操作保护：
+父亲的姓名：李安全
+母亲的姓名：刘继银
+
+
+西瓜妹分支：master

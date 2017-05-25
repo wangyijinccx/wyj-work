@@ -362,6 +362,10 @@ ename审核通过了
 http://www.ename.net/
 账号：322338    密码：@asdfgh@  
 
+张泽测试服务器
+182.92.221.121  22
+root Asdfgh123456$
+
 
 
 

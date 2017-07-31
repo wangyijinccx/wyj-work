@@ -204,6 +204,10 @@ ztwechat
 西瓜妹微信公众平台
 18601042108@sohu.com
 asdfgh
+微信支付商户API   https://pay.weixin.qq.com/index.php/partner/public/home
+账号： 1305314501
+密码    395640
+
 
 小程序公众平台
 jru@xiguamei.com
@@ -214,6 +218,28 @@ Ztwireless2015
 企业付款的账号密码 ：微信支付平台
 账号;1362456902
 密码：249691 
+
+
+商户平台
+微信支付商户号
+1362456902
+商户平台登录帐号
+1362456902@1362456902
+商户平台登录密码
+249691
+
+登陆邮箱：yan.zou@zhangtongwireless.com  （公众平台账号）
+密码：klmy*zy723
+
+
+
+
+
+
+开发平台
+xiguamei@zhangtongwireless.com 
+qwe123
+
 
 
 
@@ -315,7 +341,9 @@ appleaccoutn     苹果账号处理--生成appstore账号
 淘金者
    http://admin.v24.cn 
    123.57.154.169
-   root/!@#zhangtong$%^taojin
+   root/!@#zhangtong$%^taojin(废弃)
+   
+    root/Asdfgh123456
 traffic             流量交换平台； 积分墙流量统计
    http://trafficmanager.zheyaya.com/login.jsp;jsessionid=5530E0A4BAD96A97546E2531462488CA
    115.28.175.196
@@ -366,6 +394,7 @@ asdfgh123456
 ename审核通过了
 http://www.ename.net/
 账号：322338    密码：@asdfgh@  
+安全认证   母亲 刘继银
 
 张泽测试服务器
 182.92.221.121  22
@@ -373,12 +402,12 @@ root Asdfgh123456$
 
 
 小妹公会 线上服务器  
-101.201.253.175  
-root/Asdfgh!@#$%^   
+101.201.253.175
+root/5vg6vqtXT1sJcAMa  
 
 西瓜妹社区  
 101.201.253.194
-root/Asdfgh!@#$%^ 
+root/Asdfgh123456
 
 Jpush账号密码:
 ztwx2017   /   xiguamei2017 
@@ -389,6 +418,12 @@ ztwx2017   /   xiguamei2017
 账号： zhangtongwireless
 密码：asdfgh123
 
+
+
+天津掌通无线科技有限公司
+支付宝登录名称：ztwireless@zhangtongwireless.com
+
+支付宝登录密码：ASDfgh123456
 
 
 

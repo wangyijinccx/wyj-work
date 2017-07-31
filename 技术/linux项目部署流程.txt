@@ -298,6 +298,6 @@ jar包忽略debug
 		      </plugin>
 
 
-
+redis 启动需要指定config文件
 
 

@@ -1,0 +1,27 @@
+symfony 自定义日志
+方法一： service.yml 服务容器定义服务，然后在monolog 中添加
+services:
+    my_service:
+       class: Symfony\Bridge\Monolog\Logger
+       arguments: ['@logger']
+       tags:
+           - { name: monolog.logger, channel: foo }
+		   
+my_custom_handler:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%.mylog.log'
+            level: debug
+            channels: ['foo']		   
+		   
+
+方法二：在monolog 创建服务
+monolog:
+  channels: ['acme','foo']
+
+my_custom_handler:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%.mylog.log'
+            level: debug
+            channels: ['foo']
+
+

@@ -23,5 +23,8 @@ my_custom_handler:
             path: '%kernel.logs_dir%/%kernel.environment%.mylog.log'
             level: debug
             channels: ['foo']
+			 
+			 
+symfony devÄ£Ê½£º.htaccess £º  DirectoryIndex app_dev.php      RewriteRule ^ %{ENV:BASE}/app_dev.php [L]      RedirectMatch 302 ^/$ /app_dev.php/
 
 

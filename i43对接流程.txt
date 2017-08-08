@@ -17,8 +17,11 @@
   Asdfgh123456
   
  https://www.aliyun.com/ 
-  用户：jiangtao.info@gmail.com
-  密码：123456asdfgh
+  jiangtao.info@gmail.com
+  4su1R9uaU98QNeu$
+  
+  
+  
   
   微信支付商户API   https://pay.weixin.qq.com/index.php/partner/public/home
     账号： 1305314501

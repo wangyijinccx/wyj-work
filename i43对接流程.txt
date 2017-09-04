@@ -338,9 +338,16 @@ http://localhost:8080/xigua-api/callback?idfa=D27D3EE2-8CBA-4B4A-8865-123F6B1E32
 
 
 -------------------------------------------服务器地址-----------------------------------------------------------
-appleaccoutn     苹果账号处理--生成appstore账号
+小妹oa
    123.56.231.14
-   root/Asdfgh!@#$%^
+   root/Zhangshuo12
+   
+   mysqldump -hrdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -uoa -p db_oa > db.sql;
+   rLAd$7ljrLMC@nm3
+   
+   
+   
+   /data/oa   ./setup.sh
 淘金者
    http://admin.v24.cn 
    123.57.154.169

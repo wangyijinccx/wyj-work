@@ -392,7 +392,7 @@ pc官网：http://www.191sy.com/web/index.php
 
 万网账号密码
 hi34953347@aliyun.com
-ASDfgh123
+ASDfgh123 或者  @asdfgh@
 
 
 公司企业邮箱
@@ -452,7 +452,9 @@ https://connect.qq.com
 
 
 
+
 微信开发平台
+https://open.weixin.qq.com/
 xiguamei@zhangtongwireless.com 
 qwe123
 

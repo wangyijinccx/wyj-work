@@ -453,14 +453,49 @@ https://connect.qq.com
 
 
 
-微信开发平台
+微信开发平台(废弃)
 https://open.weixin.qq.com/
 xiguamei@zhangtongwireless.com 
 qwe123
 
+网关demo
+http://60.205.168.253:8080/
 
 
+创蓝
+http://222.73.117.158/msg/main.do
+账号：tjztwx
+密码：Tjztwx123
 
 
+rds 测试数据库
+rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com
+mgc_dummy
+9kQmghl5TUUrVM9Q
 
 
+正式服 
+mgc-games.com
+
+opensns 原版
+
+
+测试服务器
+sns.mgc-games.com
+
+
+mgc邮箱管理员账号
+service@mgc-games.com
+Tiantian1234
+
+微信开放平台 
+https://open.weixin.qq.com/ 
+jiangtao.li@mgc-games.com / 123456asdfgh
+
+企业号
+https://mp.weixin.qq.com/ 
+9668168@qq.com / @asdfgh@ 
+
+公众号 西瓜妹小工具
+
+18601042108@sohu.com/asdfgh

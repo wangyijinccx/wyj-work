@@ -22,6 +22,12 @@
   
   
   
+  万网账号密码(阿里云账号)
+hi34953347@aliyun.com
+@asdfgh@
+
+  
+  
   
   微信支付商户API   https://pay.weixin.qq.com/index.php/partner/public/home
     账号： 1305314501
@@ -239,7 +245,9 @@ Ztwireless2015
 
 
 
-
+开发平台
+xiguamei@zhangtongwireless.com 
+qwe123
 
 
 
@@ -338,7 +346,7 @@ http://localhost:8080/xigua-api/callback?idfa=D27D3EE2-8CBA-4B4A-8865-123F6B1E32
 -------------------------------------------服务器地址-----------------------------------------------------------
 小妹oa
    123.56.231.14
-   root/Zhangshuo12
+   root/0hIv7tIKudPW9Nj2
    
    mysqldump -hrdsjx6esvsm9g2bw93www.mysql.rds.aliyuncs.com -uoa -p db_oa > db.sql;
    rLAd$7ljrLMC@nm3
@@ -376,9 +384,14 @@ http://123.57.68.79:36081/api
 
 
 公司开发者账户
-
+正式包
 devz@yimenapp.net    Wujian815921
+
+
+正式包 用这个
 devm@yimenapp.net    Wujian815921
+企业包
+ios@chuhehuyu.com    Asdfgh@123
 
 
 演示后台http://v7.huosdk.com/admin.php
@@ -392,7 +405,7 @@ pc官网：http://www.191sy.com/web/index.php
 
 万网账号密码
 hi34953347@aliyun.com
-ASDfgh123 或者  @asdfgh@
+@asdfgh@
 
 
 公司企业邮箱
@@ -412,6 +425,7 @@ root Asdfgh123456$
 小妹公会 线上服务器  
 101.201.253.175
 root/5vg6vqtXT1sJcAMa  
+22
 
 西瓜妹社区  
 101.201.253.194
@@ -438,6 +452,92 @@ ztwx2017   /   xiguamei2017
 symfony--linux--mysql 用户名密码
 community/mTm$50@T^FZB1pJp
 
+小妹oa rds账户密码
+jt_root
+tzbHp4*HS3d5ukyu
+
+
+60.205.168.253
+root/xZqyvTrGBq9s02bY
+
+101.201.147.111
+root/7EqlU738wH8pGXWn
+端口 22
+
+101.201.120.115
+root/68Dot7ZE5P24Jtv5
+端口 22
+
+60.205.170.77
+root/4gdpUtm1SoOkMzHK
+端口 22
+
+
+分包服务器
+47.93.128.65         root/sZJAuqPedwqlJO8o
+
+http://doc.1tsdk.com/ 
+zhangze/123456
+
+
+
+
+
+:
+vi /etc/sysconfig/iptables
+:
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8760 -j ACCEPT
+:
+systemctl restart iptables.service
+
+
+----------------------------------------------------------------------------------------
+
+
+
+创蓝
+地址：http://222.73.117.158/msg/
+账号：tjztwx
+密码：Tjztwx123
+
+
+公众号订阅号1
+账号：shiyi.xia@xiguamei.com
+密码：jiujiuledong123456
+
+AppID  wx6ed32ca387664a0d
+       
+AppSecret  43196341b888f1747e3035f92479af6e
+           
+
+公众号订阅号2
+账号：xiaodi.wang@xiguamei.com
+密码：sas88623480  
+
+AppID  wx5510b6cd5d47f25f
+AppSecret  89c4ec7a10ffc3e5807d054322b23009
+
+session地址
+/var/lib/php/session
+
+
+http://mgc.com/agent.php/Front/Reg/wallet/name/bWdjcWJfYW5kcm9pZGFuZF8zNjI2NzlfMTA2OA==
+
+
+name.com
+alienfromsky  密码是name123456
+
+username/password: 
+18601042108/@123456asdfgh@
+
+火树的聚合平台
+http://uadmin.1tsdk.com/  帐号test1  密码dencghao
+开发者后台 open.1tsdk.com  帐号 15817185596  密码123456
+
+
+梦工厂支付宝企业账户：
+xiaoli.sun@xiguamei.com
+ASDfgh123456
 
 腾讯开发平台
 http://open.qq.com/
@@ -446,79 +546,22 @@ https://connect.qq.com
 账号：18519135810
 密码：Tiantian1234
 
-
+QQ互联
 账号：18519135812
 密码：Tiantian1234
 
-
-
-
-微信开发平台(废弃)
+mgc
+微信开放平台账号
 https://open.weixin.qq.com/
-xiguamei@zhangtongwireless.com 
-qwe123
-
-网关demo
-http://60.205.168.253:8080/
-网关节点部署
-https://github.com/ztwireless/mgc_gate_server/blob/master/deploy.md
+xiguamei@zhangtongwireless.com/qwe123
 
 
-创蓝
-http://222.73.117.158/msg/main.do
-账号：tjztwx
-密码：Tjztwx123
+西瓜妹邮箱
+账号：xiguamei@zhangtongwireless.com   密码：123456 
 
 
-rds 测试数据库
-rdsvp8brw4q4nfjwghqcq.mysql.rds.aliyuncs.com
-mgc_dummy
-9kQmghl5TUUrVM9Q
+OpenSNS：
+ 
+18519135810
+asdfgh123456
 
-
-正式服 
-mgc-games.com
-
-opensns 原版
-
-
-测试服务器
-sns.mgc-games.com
-
-
-mgc邮箱管理员账号
-service@mgc-games.com
-Tiantian1234
-
-微信开放平台 
-https://open.weixin.qq.com/ 
-jiangtao.li@mgc-games.com / 123456asdfgh
-
-企业号
-https://mp.weixin.qq.com/ 
-9668168@qq.com / @asdfgh@ 
-
-公众号 西瓜妹小工具
-
-18601042108@sohu.com/asdfgh
-
-
-
-网管服务器5
-60.205.254.5
-root
-KaEOYjQizU1qPFAY
-
-gate server 
-ip：60.205.168.253
-root/xZqyvTrGBq9s02bY
-
-// free的3台
-101.201.147.111
-root/7EqlU738wH8pGXWn
-
-101.201.120.115
-root/68Dot7ZE5P24Jtv5
-
-60.205.170.77
-root/4gdpUtm1SoOkMzHK

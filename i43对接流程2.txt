@@ -18,7 +18,7 @@
   
  https://www.aliyun.com/ 
   jiangtao.info@gmail.com
-  4su1R9uaU98QNeu$
+  @Jiuru2018#$%^&*
   
   
   
@@ -216,6 +216,18 @@ asdfgh
 微信支付商户API   https://pay.weixin.qq.com/index.php/partner/public/home
 账号： 1305314501
 密码    395640
+
+	const APPID     = 'wxbcbd557ee763bf7c';
+	const MCHID     = '1305314501';
+	const KEY       = 'JiuRu111XigUAmEi222liJIAngtAo333';
+	const APPSECRET = '46d5922acf5c18b6c86f5eced5ca4d11';
+
+
+
+
+小程序账号密码
+https://mp.weixin.qq.com/
+m18519135810@163.com/Tiantian1234
 
 
 小程序公众平台
@@ -500,6 +512,17 @@ systemctl restart iptables.service
 账号：tjztwx
 密码：Tjztwx123
 
+创蓝新地址
+登录地址：zz.253.com
+账号：18601042108
+密码：068584
+创蓝api账号密码
+账号：N4959741
+密码：hdtz5Fgpq
+接口：http://smssh1.253.com/msg/send/json
+
+
+
 
 公众号订阅号1
 账号：shiyi.xia@xiguamei.com
@@ -508,6 +531,9 @@ systemctl restart iptables.service
 AppID  wx6ed32ca387664a0d
        
 AppSecret  43196341b888f1747e3035f92479af6e
+
+
+
            
 
 公众号订阅号2
@@ -555,6 +581,8 @@ mgc
 https://open.weixin.qq.com/
 xiguamei@zhangtongwireless.com/qwe123
 
+jiangtao.li@mgc-games.com / 123456asdfgh
+
 
 西瓜妹邮箱
 账号：xiguamei@zhangtongwireless.com   密码：123456 
@@ -565,3 +593,97 @@ OpenSNS：
 18519135810
 asdfgh123456
 
+
+letool
+https://github.com/ztwireless/letools
+npm install
+npm run build
+在build下就有安装包了
+
+
+npm install  --> npm run dev_win 调试模式
+
+
+
+
+
+
+默认账号：17701000400  123456
+风流霸业
+13556000001  123456
+
+
+
+1543420800000
+1543507199000
+
+
+
+现在支付
+手机APP技术包(新)：
+https://pan.baidu.com/s/18CvpobbgCtyVFaqjnu4YAw
+手机网页version1.0.0：
+https://pan.baidu.com/s/1kVW0IiF
+
+
+现在支付分账授权密码
+asdfgh123456!
+
+
+
+创蓝
+http://222.73.117.158/msg/index.jsp
+账号：tjztwx
+密码：Tjztwx123
+
+
+现在支付商户号是
+1512939131
+258369 操作密码
+
+
+微信支付：https://payment.ipaynow.cn/
+
+久如：
+用户名：yingqi.wang@xiguamei.com
+密码：xiguamei@2017
+
+应用名称:小妹公会
+应用密钥:xBvWljSu9ZUev15O57stoyVoHdMzZnRe
+应用编号:149241876441416
+网站地址:www.xiguamei.com
+使用场景:代付
+应用类型:游戏
+
+掌通：
+用户名：ztwx@xiguamei.com                邮箱密码：Xiguamei2017
+密码：xiguamei@2017  
+APP端
+应用密钥:eGcb6epHgjfuBb1KnVL2VSNcNahSTnX1
+应用编号:149241831659845
+网站地址:www.xiguamei.com
+使用场景:手机
+类型:游戏
+应用简介:用于小妹公会APP内的微信支付
+wap端
+应用编号:149241843283426
+应用密钥:Ou8OZvVz1Ddz7Kh8AOxk3YoIx3pLSC8C
+网站地址:www.xiguamei.com
+
+
+支付宝：
+
+掌通：
+ztwireless@zhangtongwireless.com
+
+密码：1q2w3e4r
+
+
+微信开放平台好像是ztwx@xiguamei.com
+
+
+正式服数据库
+yijin MGCmgc&*()   只读
+
+yijin_rw
+MGCmgc&*()yijin    读写

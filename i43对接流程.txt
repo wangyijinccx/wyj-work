@@ -212,6 +212,17 @@ asdfgh
 密码    395640
 
 
+小程序账号密码
+
+m18519135810@163.com/Tiantian1234
+
+appid:wxd119bd644aa1a75a
+AppSecret(小程序密钥):50e8d8292a4aeaa663aae584ca764487
+
+
+
+
+
 小程序公众平台
 jru@xiguamei.com
 Ztwireless2015
@@ -411,7 +422,8 @@ root Asdfgh123456$
 
 小妹公会 线上服务器  
 101.201.253.175
-root/5vg6vqtXT1sJcAMa  
+root/5vg6vqtXT1sJcAMa  （废弃） 
+root/HZS9tRpH53aUXARn
 
 西瓜妹社区  
 101.201.253.194
@@ -522,3 +534,96 @@ root/68Dot7ZE5P24Jtv5
 
 60.205.170.77
 root/4gdpUtm1SoOkMzHK
+
+
+网关服务器6
+59.110.47.215
+root/eD0FSgRpkpmn9thx
+网关服务器7
+60.205.249.153
+网关服务器8
+60.205.246.253
+
+
+
+您先注册公众号进行企业认证，再注册小程序，这样可以将公众号和小程序关联起来，公众号后台可一键注册小程序和管理小程序，做更多有关产品的推广；同时小程序和公众号可同名注册，公众号关联小程序的好处有：
+1、公众号自定义菜单可直接跳转小程序
+2、公众号已关联小程序会自动下发模板消息，点击模板消息可打开相关小程序；
+3、公众号资料页展示可关联小程序
+4、公众号图文消息可插入小程序卡片，点击卡片即可进入小程序页面；
+5、蓝色字体链接跳转到小程序
+6、图片链接跳转到小程序
+
+
+
+
+http://search.mgc-games.com:8711/admin.php/menu/index.html
+
+
+
+手机APP技术包(新)：
+https://pan.baidu.com/s/18CvpobbgCtyVFaqjnu4YAw 
+
+手机网页version1.0.0：
+https://pan.baidu.com/s/1kVW0IiF 
+
+
+
+西瓜妹
+
+APPID       = "wxbcbd557ee763bf7c";
+APPSECRET   = "46d5922acf5c18b6c86f5eced5ca4d11";
+
+API_KEY = "JiuRu111XigUAmEi222liJIAngtAo333";//商户apikey
+MCHID = "1305314501";//商户号
+
+
+//西瓜妹企业付款
+    public $api_key_xgm = 'JiuRu111XigUAmEi222liJIAngtAo333';//商户apikey
+    public $mchId_xgm   = '1305314501';//商户号
+    public $appId_xgm   = 'wxbcbd557ee763bf7c';//公众号appid
+    //授权
+    public $app_secret_xgm = '46d5922acf5c18b6c86f5eced5ca4d11'; //公众号app_secret
+
+
+
+    
+//九九乐动                商户密钥
+yummy8  asdfgh123456!    46d5922acf5c18b6c86f5eced5ca4d22
+
+
+
+
+
+
+
+路由
+www.routerlogin.net
+admin/password
+
+
+极路由 
+192.168.199.1
+
+
+
+
+POST http://mgc-games.com:8711/api/cgi-bin/midas/pay?access_token=ACCESS_TOKEN
+
+
+椰子积分
+https://vendor.cocogc.cn
+账号：menggongchang
+密码：asd123456
+后台地址：vendor.cocogc.cn
+
+测试环境后台：https://tvendor.cocogc.cn/index
+登录名：menggongchang
+密码：asd123456
+
+
+椰子积分
+商城手机号：18614027863
+账号：menggongchang
+密码：asd123456
+后台地址：vendor.cocogc.cn
